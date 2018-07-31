@@ -16,14 +16,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MessagesComponent,
     DashboardComponent
   ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [
     // no need to place any providers due to the `providedIn` flag...
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
